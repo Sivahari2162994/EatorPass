@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthy Food Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="text-center">
+    <div class="container">
+        <h1 class="mt-5">Result</h1>
+        <p class="lead">{{ result }}</p>
+        <a href="/" class="btn btn-primary mt-3">Play Again</a>
+    </div>
+</body>
+</html>
